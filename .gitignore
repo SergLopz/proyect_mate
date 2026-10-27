@@ -49,6 +49,6 @@ app.*.map.json
 
 
 # Archivos de base de datos local de prueba
-*.db
+#*.db
 *.sqlite
 *.sqlite3

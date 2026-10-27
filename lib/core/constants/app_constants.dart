@@ -4,7 +4,7 @@ class AppConstants {
   static const String homeTitle = 'Panel Principal';
 
   // Textos para los botones del menú principal
-  static const String btnRegisterUser = 'Registrar Usuario';
+  static const String btnRegisterUser = 'Registrar Cliente';
   static const String btnRegisterService = 'Registrar Servicio';
   static const String btnHistory = 'Ver Historial';
   static const String btnReport = 'Generar Informe';

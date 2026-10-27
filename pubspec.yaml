@@ -15,6 +15,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  # --- AGREGA ESTAS DOS LÍNEAS AQUÍ ---
+  sqflite: ^2.3.0    # O la versión más reciente compatible
+  path: ^1.8.3       # Necesario para ubicar la ruta de la base de datos en el celular
 
 dev_dependencies:
   flutter_test:
@@ -24,3 +27,6 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  # Agrega esta sección de assets para incluir tu base de datos
+  assets:
+    - assets/db/base_de_datos_parqueadero_v2.db
